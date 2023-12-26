@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.main{
+    background-image: url('/images/img4.avif');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+    filter: blur(0.5px);
+}
+.card{
+   height: 58%;
+   width: 30%;
+   background-color: rgb(101, 154, 101);
+   opacity: 0.7;
+   text-align: center;
+}
+.head{
+    color: rgb(7, 7, 7);
+    text-align: center;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-style: italic;
+    font-weight: bolder;
+    padding: 20px;
+}
+.para{
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    padding: 10px;
+}
+.head2{
+    color: rgb(81, 57, 57);
+    font-weight: bolder;
+    padding: 15px;
+}
+.para2{
+    color: white;
+    font-weight: lighter;
+    padding: 15px;
+}
+.para3{
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline;
+}
+.btn{
+    border-radius: 30px;
+    border-width: 2px;
+    background-color:  rgb(207, 47, 47);
+    color: white;
+    border-color: transparent;
+    border-style: solid;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    text-align: center;
+    
+    
+}
+.logo{
+   height: 60px;
+   position: absolute;
+   top: 2%;
+   left: 88%;
+   
+}
